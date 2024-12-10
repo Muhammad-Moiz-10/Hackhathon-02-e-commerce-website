@@ -1,5 +1,5 @@
-import Image from "next/image";
-import rightimage from "../../../../public/images/RightImage.png"
+// import Image from "next/image";
+// import rightimage from "../../../../public/images/RightImage.png"
 
 export default function Popularproducts() {
     return (
