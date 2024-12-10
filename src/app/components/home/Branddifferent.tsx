@@ -42,7 +42,7 @@ export default function Navbar() {
                         <Image src={flowericon} alt="truckicon" height={24} width={24} className="relative top-[4.5px] left-[1.5px]"></Image>
                         <div className="gap-[8px] ">
                             <p className="text-[20px] h-[20px] w-[280px] text-[#2A254B] mt-4">Recycled packaging</p>
-                            <p className="text-[16px]  h-[20px] w-[580px] mt-[10px] text-[#2A254B]">We use 100% recycled packaging to <br /> ensure our footprint is manageable</p>
+                            <p className="text-[16px]  h-[20px] w-[380px] mt-[10px] text-[#2A254B]">We use 100% recycled packaging to <br /> ensure our footprint is manageable</p>
                         </div>
                     </div>
                 </div>
