@@ -1,7 +1,7 @@
 import Image from "next/image";
-import searchicon from "../../../../public/images/searchicon.png"
-import carticon from "../../../../public/images/carticon.png"
-import profileicon from "../../../../public/images/profileicon.png"
+import searchicon from "../../../public/images/searchicon.png";
+import carticon from "../../../public/images/carticon.png";
+import profileicon from "../../../public/images/profileicon.png";
 
 export default function Navbar() {
   return (

@@ -1,8 +1,8 @@
-import Image from "next/image";
-import truckincon from "../../../../public/images/truckicon.png"
-import verifyicon from "../../../../public/images/verifyicon.png"
-import cardicon from "../../../../public/images/cardicon.png"
-import flowericon from "../../../../public/images/flowericon.png"
+import Image  from "next/image";
+import truckincon from "../../../public/images/truckicon.png";
+import verifyicon from "../../../public/images/verifyicon.png";
+import cardicon from "../../../public/images/cardicon.png";
+import flowericon from "../../../public/images/flowericon.png";
 
 export default function Navbar() {
     return (

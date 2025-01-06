@@ -1,8 +1,8 @@
 import Image from "next/image";
-import rightimage from "../../../../public/images/RightImage.png"
-import ceramicsdiv2 from "../../../../public/images/ceramicsdiv2.png"
-import ceramicsdiv3 from "../../../../public/images/ceramicsdiv3.png"
-import ceramicsdiv4 from "../../../../public/images/ceramicsdiv4.png"
+import Rightimage from "../../../public/images/RightImage.png"
+import ceramicsdiv2 from "../../../public/images/ceramicsdiv2.png"
+import ceramicsdiv3 from "../../../public/images/ceramicsdiv3.png"
+import ceramicsdiv4 from "../../../public/images/ceramicsdiv4.png"
 
 export default function Newceramics() {
     return (
@@ -10,7 +10,7 @@ export default function Newceramics() {
             <p className="mt-[80px] ml-[80px] text-[32px]">New Ceramics</p>
             <div className="w-[1280px] h-[462px] mt-[17px] ml-[80px] flex justify-evenly">
                 <div>
-                    <Image src={rightimage} alt="rightimage" className="h-[375px] w-[305px]" ></Image>
+                    <Image src={Rightimage} alt="rightimage" className="h-[375px] w-[305px]" ></Image>
                     <div>
                         <p className="text-[20px] text-[#2A254B]">The Dandy chair</p>
                         <p className="text-[18px] text-[#2A254B]">£250</p>
