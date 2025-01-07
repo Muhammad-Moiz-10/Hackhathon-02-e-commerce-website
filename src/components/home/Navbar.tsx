@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import searchicon from "../../../public/images/searchicon.png";
 import carticon from "../../../public/images/carticon.png";
 import profileicon from "../../../public/images/profileicon.png";
@@ -19,7 +20,7 @@ export default function Navbar() {
       <div className=" w-[1386px] relative left-[28px] border-[1px] bg-[rgb(178,123,250)]"></div>
       <div className="w-[685px] h-[22px] relative top-[10px] left-[382px] gap-[44px] flex items-center justify-evenly">
         <p className="text-[#726E8D]">Plant pots</p>
-        <p className="text-[#726E8D]">Ceramics</p>
+        <Link href={"/pages/about"} className="text-[#726E8D]">Ceramics</Link>
         <p className="text-[#726E8D]">Tables</p>
         <p className="text-[#726E8D]">Chairs</p>
         <p className="text-[#726E8D]">Grocery</p>
