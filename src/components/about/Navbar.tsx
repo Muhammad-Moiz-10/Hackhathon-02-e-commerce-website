@@ -7,7 +7,7 @@ import carticon from "../../../public/images/carticon.png"
 export default function Navbar() {
     return (
         <div className="h-[134px] w-[1440px] flex flex-col">
-            <div className="h-[70px] w-full flex">
+            <div className="h-[70px] w-full flex ">
                 <p className="text-[#22202E] text-[24px] mt-[21px] ml-[28px]">Avion</p>
                 <div className="h-[22px] w-[220px] flex gap-[32px] mt-[24px] ml-[955px]">
                     <Link href={"#"} className="text-[#726E8D]">about us</Link>
@@ -22,8 +22,8 @@ export default function Navbar() {
             </div>
             <div className="bg-[#f9f9f9] h-[64px] w-full flex justify-center items-center">
               <div className="h-[22px] w-[803px] flex gap-[44px]">
-                <p className="text-[#726E8D]">All products</p>
-                <p className="text-[#726E8D]">Plant pots</p>
+                <p className="text-[#726E8D]">Allproducts</p>
+                <p className="text-[#726E8D]">Plantpots</p>
                 <p className="text-[#726E8D]">Ceramics</p>
                 <p className="text-[#726E8D]">Tables</p>
                 <p className="text-[#726E8D]">Chairs</p>
