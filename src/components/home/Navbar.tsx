@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="w-[685px] h-[22px] relative top-[10px] left-[382px] gap-[44px] flex items-center justify-evenly">
         <p className="text-[#726E8D]">Plant pots</p>
         <Link href={"/pages/about"} className="text-[#726E8D]">Ceramics</Link>
-        <p className="text-[#726E8D]">Tables</p>
+        <Link href={"/pages/shoppingbasket"} className="text-[#726E8D]">Tables</Link>
         <p className="text-[#726E8D]">Chairs</p>
         <p className="text-[#726E8D]">Grocery</p>
         <p className="text-[#726E8D]">TableWave</p>
